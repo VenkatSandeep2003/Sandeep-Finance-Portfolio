@@ -1,0 +1,213 @@
+import React from "react";
+
+// Portfolio - Single-file React component (Tailwind CSS) // How to use: paste into a React + Tailwind project (Create React App, Vite, Next.js) // Replace any /files/... links with your hosted PDF URLs after deployment.
+
+export default function Portfolio() { return ( <div className="min-h-screen bg-gradient-to-b from-[#020c1b] to-[#071127] text-[#ccd6f6] antialiased"> <header className="max-w-6xl mx-auto p-6 md:p-12 flex flex-col md:flex-row items-center gap-6"> <div className="flex-1"> <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">S R VENKATA SANDEEP</h1> <p className="mt-2 text-lg text-[#8892b0]">Finance Professional • Financial Modeling • FP&A • Valuation</p>
+
+<div className="mt-6 flex flex-wrap gap-3">
+        <a href="/files/SR_Venkata_Sandeep_Resume.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-transparent border border-[#64ffda] text-[#64ffda] px-4 py-2 rounded-lg hover:bg-[#64ffda]/10 transition">📄 View Resume</a>
+        <a href="https://linkedin.com/in/srvenkatasandeep" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-[#64ffda] text-[#071127] px-4 py-2 rounded-lg hover:opacity-90 transition">LinkedIn</a>
+        <a href="mailto:venkatsandeepsr@gmail.com" className="inline-flex items-center gap-2 border border-transparent bg-[#0f1724] px-4 py-2 rounded-lg text-[#8892b0] hover:bg-[#0f1724]/80">✉️ Email</a>
+      </div>
+
+      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-[#8892b0]">
+        <div>📍 Bellary, Karnataka</div>
+        <div>📞 +91 9110851043</div>
+      </div>
+    </div>
+
+    <div className="w-40 h-40 rounded-full bg-gradient-to-br from-[#112240] to-[#0b1626] flex items-center justify-center shadow-lg ring-1 ring-[#64ffda]/10">
+      <div className="uppercase text-center">
+        <div className="text-lg font-bold">S R V S</div>
+        <div className="text-xs text-[#64ffda]">Finance • Analysis</div>
+      </div>
+    </div>
+  </header>
+
+  <main className="max-w-6xl mx-auto px-6 pb-12">
+    {/* Executive Summary */}
+    <section className="mb-10 p-6 rounded-2xl bg-[#0f1724] border border-[#64ffda]/6 shadow-md">
+      <h2 className="text-2xl font-semibold text-[#64ffda] mb-3">EXECUTIVE SUMMARY</h2>
+      <p className="text-[#8892b0] leading-relaxed">
+        Analytical finance professional with 5+ months of hands-on experience in investment analysis and auditing. Experienced in financial modeling, forecasting, variance analysis, portfolio evaluation, valuation, and inventory reconciliation. Strong skills in Excel and Power BI to produce decision-quality reports and dashboards supporting finance and FP&A functions.
+      </p>
+    </section>
+
+    {/* Skills */}
+    <section className="mb-10 grid md:grid-cols-3 gap-6">
+      <div className="p-6 rounded-2xl bg-[#071127] border border-[#64ffda]/6">
+        <h3 className="text-xl font-semibold text-[#ccd6f6] mb-3">Core Skills</h3>
+        <ul className="text-[#8892b0] space-y-2">
+          <li>Financial Modeling & DCF / Comparable Analysis</li>
+          <li>Budgeting, Forecasting & Variance Analysis</li>
+          <li>Investment Analysis & Portfolio Optimization</li>
+        </ul>
+      </div>
+
+      <div className="p-6 rounded-2xl bg-[#071127] border border-[#64ffda]/6">
+        <h3 className="text-xl font-semibold text-[#ccd6f6] mb-3">Tools & Tech</h3>
+        <ul className="text-[#8892b0] space-y-2">
+          <li>Advanced Excel (PivotTables, Power Query, VBA)</li>
+          <li>Power BI (DAX, visual storytelling)</li>
+          <li>Tally ERP 9 / Tally Prime</li>
+        </ul>
+      </div>
+
+      <div className="p-6 rounded-2xl bg-[#071127] border border-[#64ffda]/6">
+        <h3 className="text-xl font-semibold text-[#ccd6f6] mb-3">Finance Concepts</h3>
+        <ul className="text-[#8892b0] space-y-2">
+          <li>Valuation & Sensitivity Analysis</li>
+          <li>Working Capital & Inventory Valuation</li>
+          <li>Risk Metrics (Sharpe, VaR, Altman Z-Score)</li>
+        </ul>
+      </div>
+    </section>
+
+    {/* Experience */}
+    <section className="mb-10">
+      <h2 className="text-2xl font-semibold text-[#64ffda] mb-4">Experience</h2>
+
+      <div className="space-y-6">
+        <article className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6 hover:scale-[1.01] transition-transform">
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-lg font-semibold">Citigroup Inc. — Financial Analyst Intern</h3>
+              <div className="text-sm text-[#8892b0]">Remote, India • April 2025 – May 2025</div>
+            </div>
+            <a href="/files/Citigroup_Internship_Proof.pdf" target="_blank" rel="noreferrer" className="text-sm text-[#64ffda] hover:underline">View Proof</a>
+          </div>
+          <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2">
+            <li>Monitored monthly KPI variances for 5 business units and improved reporting efficiency by 20%.</li>
+            <li>Assessed capital adequacy and maintained a 12.3% capital ratio for regulatory compliance.</li>
+            <li>Modeled revenue scenarios (7% decline) and updated forecasts using regression analysis.</li>
+          </ul>
+        </article>
+
+        <article className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6 hover:scale-[1.01] transition-transform">
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-lg font-semibold">Auditics Private Limited — Inventory Audit Associate</h3>
+              <div className="text-sm text-[#8892b0]">Bellary, Karnataka • November 2024 – March 2025</div>
+            </div>
+            <a href="/files/Auditics%20Appointment%20Letter.pdf" target="_blank" rel="noreferrer" className="text-sm text-[#64ffda] hover:underline">View Appointment Letter</a>
+          </div>
+          <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2">
+            <li>Audited 1,600+ SKUs across 10+ units with 96% reconciliation accuracy.</li>
+            <li>Standardized valuation methods (FIFO & W.Avg), improving cost accuracy by 8%.</li>
+            <li>Identified ₹1.2L stock variances and corrected COGS deviations by 4%.</li>
+          </ul>
+        </article>
+
+        <article className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6 hover:scale-[1.01] transition-transform">
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-lg font-semibold">Fidelity International — Investment Management Intern</h3>
+              <div className="text-sm text-[#8892b0]">Remote, India • June 2024 – July 2024</div>
+            </div>
+            <a href="#projects" className="text-sm text-[#64ffda] hover:underline">See Projects</a>
+          </div>
+          <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2">
+            <li>Built mock portfolio models and improved return efficiency by 6% through rebalancing.</li>
+            <li>Applied Sharpe Ratio and Solver to reduce simulated risk exposure by 4%.</li>
+            <li>Prepared sector research and investment theses for FMCG and Tech.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    {/* Projects */}
+    <section id="projects" className="mb-10">
+      <h2 className="text-2xl font-semibold text-[#64ffda] mb-4">Projects</h2>
+
+      <div className="grid md:grid-cols-2 gap-6">
+        {/* Finance KPI Dashboard */}
+        <div className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6">
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-lg font-semibold">Finance KPI Dashboard</h3>
+              <div className="text-sm text-[#8892b0]">Power BI • DAX • Executive Reporting</div>
+            </div>
+            <div className="text-sm text-[#64ffda]">Jul 2025</div>
+          </div>
+          <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2">
+            <li>Interactive dashboard comparing Actual vs Budget across Sales, Revenue & Expenses using advanced DAX.</li>
+            <li>Integrated variance, YTD performance, and trends to highlight decision-driving metrics.</li>
+            <li>Reduced monthly reporting time by 30% via automated refresh and consolidated reporting.</li>
+          </ul>
+          <div className="mt-4 flex gap-2">
+            <a className="btn inline-flex items-center gap-2 px-3 py-2 rounded bg-[#64ffda] text-[#071127] font-semibold" href="#">Preview</a>
+            <a className="btn-link inline-flex items-center gap-2 px-3 py-2 rounded border border-[#64ffda]/30 text-[#64ffda]" href="/files/Finance_KPI_Dashboard_Report.pdf" target="_blank" rel="noreferrer">Download Report</a>
+          </div>
+        </div>
+
+        {/* Blinkit Dashboard */}
+        <div className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6">
+          <div className="flex justify-between items-start">
+            <div>
+              <h3 className="text-lg font-semibold">Blinkit Sales Performance Dashboard</h3>
+              <div className="text-sm text-[#8892b0]">Power BI • Regional Analysis • Ops Insights</div>
+            </div>
+            <div className="text-sm text-[#64ffda]">May 2025</div>
+          </div>
+          <ul className="list-disc pl-5 mt-3 text-[#ccd6f6] space-y-2">
+            <li>Analyzed regional sales, delivery time and customer satisfaction trends to prioritize operational fixes.</li>
+            <li>Found top 3 metros contributed 58% of orders — led to route optimization and a 12% reduction in delays.</li>
+            <li>Built visuals for Sales by Category, Avg Delivery Time and Revenue per Order for stakeholder reviews.</li>
+          </ul>
+          <div className="mt-4 flex gap-2">
+            <a className="btn inline-flex items-center gap-2 px-3 py-2 rounded bg-[#64ffda] text-[#071127] font-semibold" href="#">Preview</a>
+            <a className="btn-link inline-flex items-center gap-2 px-3 py-2 rounded border border-[#64ffda]/30 text-[#64ffda]" href="/files/Blinkit_Dashboard_Report.pdf" target="_blank" rel="noreferrer">Download Report</a>
+          </div>
+        </div>
+      </div>
+
+      {/* Proofs gallery */}
+      <div className="mt-8 p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6">
+        <h4 className="text-lg font-semibold text-[#ccd6f6]">Proofs & Reports</h4>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <a href="/files/Auditics%20Appointment%20Letter.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded bg-[#0f1724] border border-[#64ffda]/10 text-[#64ffda]">Auditics - Appointment Letter</a>
+          <a href="/files/GST%20Impact%20Project.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded bg-[#0f1724] border border-[#64ffda]/10 text-[#64ffda]">GST Impact Project</a>
+        </div>
+      </div>
+    </section>
+
+    {/* Education & Certifications */}
+    <section className="mb-10 grid md:grid-cols-2 gap-6">
+      <div className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6">
+        <h3 className="text-lg font-semibold">Education</h3>
+        <div className="mt-3 text-[#8892b0]">
+          <div className="font-semibold text-[#ccd6f6]">Bachelor of Commerce – Accounting & Finance</div>
+          <div className="text-sm">Vijayanagara Sri Krishnadevaraya University • Sep 2021 – Oct 2024</div>
+          <div className="mt-2">CGPA: <span className="font-semibold">8.95/10</span> — Top 5% of class</div>
+        </div>
+      </div>
+
+      <div className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6">
+        <h3 className="text-lg font-semibold">Certifications</h3>
+        <ul className="text-[#ccd6f6] mt-3 space-y-2">
+          <li>Financial Modeling & Valuation — Udemy (2025)</li>
+          <li>Tally ERP 9 — ALMA Institute (2024)</li>
+          <li>Accounting Fundamentals — Corporate Finance Institute (2023)</li>
+          <li>Advanced Excel — Alison (2023)</li>
+        </ul>
+      </div>
+    </section>
+
+    {/* Contact */}
+    <section className="p-6 rounded-xl bg-[#071127] border border-[#64ffda]/6 text-center">
+      <h3 className="text-lg font-semibold text-[#64ffda]">Get in touch</h3>
+      <p className="text-[#8892b0] mt-2">I’m actively looking for roles in financial analysis and FP&A. Reach out for collaborations, internships, or freelance projects.</p>
+      <div className="mt-4 flex justify-center gap-3">
+        <a href="mailto:venkatsandeepsr@gmail.com" className="px-4 py-2 rounded bg-[#64ffda] text-[#071127] font-semibold">Email Me</a>
+        <a href="https://linkedin.com/in/srvenkatasandeep" target="_blank" rel="noreferrer" className="px-4 py-2 rounded border border-[#64ffda]/20 text-[#64ffda]">LinkedIn</a>
+      </div>
+    </section>
+
+    <footer className="mt-10 text-center text-sm text-[#8892b0]">
+      © 2025 S R VENKATA SANDEEP — Portfolio
+    </footer>
+  </main>
+</div>
+
+); }
+
